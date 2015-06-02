@@ -22,3 +22,7 @@ sum(ymensoesti^2) / (N-2)
 
 sigma <- sqrt(((sum(ymensoesti^2))/(N-2)))/ sqrt(sum((x-avgx)^2))
 t <- Beta / sigma
+
+df <-N-2
+
+#Voy a la t-table
