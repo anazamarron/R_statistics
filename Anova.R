@@ -33,6 +33,7 @@ ss4
 
 mt <- round((s1 + s2 +s3 + s4 ) / N,1)
 
+
 SSt <- round((ss1 + ss2 + ss3 + ss4) - (N*(mt^2)),1)
 
 SSb <- round((n1*(m1-mt)^2) + (n2*(m2-mt)^2) + (n3*(m3-mt)^2) + (n4*(m4-mt)^2),1)
